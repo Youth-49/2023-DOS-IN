@@ -1,3 +1,4 @@
+.gitignore
 /outlier/gen.py
 /real_data/bsas/
 /real_data/DBSCAN/
