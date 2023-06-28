@@ -1,5 +1,7 @@
 # 2023-DOS-IN
 
+submitted to *Information Sciences*
+
 
 
 to reproduce the Figure 6,7,8,9,10,11:
