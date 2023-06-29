@@ -137,9 +137,9 @@ if __name__ == '__main__':
     fig, ax1 = plt.subplots(1)
     fig.suptitle(f'{figname[DatasetName][1]}', fontstyle='italic',size=20)
     ax1.scatter(list(range(len(dis2cluster))), dis2cluster, s=40, marker='.', c='dimgrey')
-    if DatasetName != 't48k':
-        ax1.plot(list(range(len(dis2cluster))), [1.2]*len(dis2cluster), linestyle='--', linewidth=2)
-    ax1.set_ylabel('distance', fontstyle='italic', size=20)
+    ax1.plot(list(range(len(dis2cluster))), [1.2]*len(dis2cluster), linestyle='--', linewidth=2)
+    ax1.set_ylabel(r'$\eta$', fontstyle='italic', size=20)
+    ax1.set_xticks([])
     plt.show()
     fig.savefig(
         fr'./fig/{args.algorithm}_{DatasetName}_dg.png', dpi=dpi, bbox_inches='tight')
