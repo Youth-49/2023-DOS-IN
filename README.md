@@ -1,6 +1,10 @@
 # 2023-DOS-IN
 
-submitted to *Information Sciences*
+submitted to Journal of *Information Sciences*
+
+
+
+environment can be seen in `env.txt`
 
 
 
